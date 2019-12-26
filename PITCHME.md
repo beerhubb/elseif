@@ -5,24 +5,22 @@
 ## Agenda
 
 @ol
-* Basic `else-if` statement syntaxs
-* Basic `nested if` statement syntaxs
+*  `else-if` statement syntaxs
+*  nested ` if` statement syntaxs
 @olend
 
 ---
 
-## Basic `else-if` statement syntaxs
+## `else-if` statement syntaxs
 
 ```csharp
-if (condition) 
+if (conditionA) 
 {
     
-} 
-else if(condition2) 
+} else if(conditionB) 
 {
     
-} 
-else 
+} else 
 {
     
 }
@@ -30,22 +28,20 @@ else
 
 +++
 
-## demo 1
+## Demo 1
 
 ```csharp
 var sccore = 81;
 
 if (score > 80) 
 {
-    Console.writeline("A")
-} 
-else if (score > 70) 
+    Console.Writeline("A")
+} else if (score > 70) 
 {
-    Console.writeline("B")
-}
-else 
+    Console.Writeline("B")
+}else 
 {
-    Console.writeline("F")
+    Console.Writeline("F")
 }
 ```
 
@@ -57,25 +53,25 @@ A
 
 ---
 
-## Basic `nested if` statement syntax 
+##  `nested if` statement syntax 
 
 ```csharp
-if (condition) 
+if (conditionA) 
 {
-	if (condition) 
+	if (conditionB) 
 	{
 		
 	} 
 	else 
-	(
+	{
 
-	)
+	}
 }
 ```
 
 +++
 
-## demo 1
+## Demo 1
 
 ```csharp
 var number = 1;
@@ -86,11 +82,11 @@ if (number == 1)
 
 	if (numbers == 2) 
 	{
-		Console.writeline("Hello World")
+		Console.Writeline("Hello World")
 	} 
 	else 
 	{
-		Console.writeline("Hello mama");
+		Console.Writeline("Hello mama");
 	}
 }
 ```
